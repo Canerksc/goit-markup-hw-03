@@ -177,7 +177,7 @@ header .address-menu .address-mail-number:active{
 }
 .visually-hidden {
     visibility: hidden;
-}
+  }
 .feature-ul{
     display: flex;
     gap: 24px;
@@ -245,8 +245,7 @@ header .address-menu .address-mail-number:active{
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
-    margin: 0;
-   
+   margin-bottom: 8px;
    
 }
 .name-text {
