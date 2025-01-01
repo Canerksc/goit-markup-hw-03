@@ -162,7 +162,7 @@ header .address-menu .address-mail-number:active{
     padding:120px 0;
 
 }
-.visual-hidden {
+.visually-hidden {
     visibility: hidden;
 }
 .feature-ul{
@@ -171,7 +171,7 @@ header .address-menu .address-mail-number:active{
     list-style-type: none;
 }
 .feature-ul-li {
-    width: calc((100% - 72px) / 4);
+    width: 264px;
     
 }
 .feature-title{
@@ -213,7 +213,7 @@ header .address-menu .address-mail-number:active{
     list-style-type: none;
 }
 .name-job { 
-    padding-bottom:32px ;
+    padding:32px 0 ;
 
 }
 .name {
@@ -258,15 +258,12 @@ header .address-menu .address-mail-number:active{
     list-style-type: none;
 }
 .portfolio-ul-li {
-    width: 360px;
-    height: 420px;
+    width: calc((100% - 72px) / 3)
  
     
 }
 .app-category {
-    padding-top: 16px ;
-    padding-bottom: 16px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
