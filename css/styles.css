@@ -5,7 +5,7 @@ body{
     color: #434455;
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    width:1158px ;
+
 
 }
 
@@ -33,10 +33,6 @@ img {
 }
 .header-nav-logo {
     margin-right: 76px; 
-    
-
-}
-.logo {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight:700;
@@ -45,6 +41,8 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+
+
     
 }
 .logo-studio { 
@@ -117,7 +115,7 @@ header .address-menu .address-mail-number:active{
 
 
 /*Main-Section-1*/
-.main-section-1-hero-image {
+.hero-image {
     background-color: #2E2F42;
     padding: 188px 0;
 }
@@ -159,23 +157,24 @@ header .address-menu .address-mail-number:active{
 
 
 
-/* Main-Section-2 - Start */
-.main-2-Section{
-    padding: 120px 0;
+/* Main-Section- 2 - Start */
+.feature-section{
+    padding:120px 0;
 
 }
 .visual-hidden {
     visibility: hidden;
 }
-.main-section-2-ul{
+.feature-ul{
     display: flex;
     gap: 24px;
     list-style-type: none;
 }
-.main-section-2-ul-li {
+.feature-ul-li {
     width: calc((100% - 72px) / 4);
+    
 }
-.main-section-2-title{
+.feature-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -183,18 +182,19 @@ header .address-menu .address-mail-number:active{
     color: #2E2F42;
     margin-bottom: 8px;
 }
-.main-section-2-text{
+.feature-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width:264px ;
     }
 /* Main-Section-2 - End */
 
 
 
 /* Main-Section-3 - Start */
-.main-3-section {
+.team-section {
     background-color: #F4F4FD;
     padding: 120px 0;   
 }
@@ -207,18 +207,21 @@ header .address-menu .address-mail-number:active{
     color: #2E2F42;   
     margin-bottom: 72px;
 }
-.main-section-3-ul {
+.team-ul {
     display: flex;
     gap:24px;
     list-style-type: none;
 }
 .name-job { 
-    padding: 32px 0;
+    padding-bottom:32px ;
+
 }
 .name {
     background-color: #fff;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px solid 000;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px ;
+    width: 264px;
+    height: 380px;
     
 }
 .name-title {
@@ -243,26 +246,32 @@ header .address-menu .address-mail-number:active{
 
 
 /* Main-Section-4 - Start */
-.main-4-section {
+.portfolio-section {
     padding: 120px 0;
     
 }
-.main-section-4-ul {
+.portfolio-ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
 }
-.main-section-4-ul-li {
-    width: calc((100% - 72px) / 3);
+.portfolio-ul-li {
+    width: 360px;
+    height: 420px;
+ 
     
 }
 .app-category {
-    padding: 32px 16px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+
+   
 
 }
 .our-portfolio{
